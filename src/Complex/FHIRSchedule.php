@@ -1,6 +1,6 @@
 <?php namespace FHIR\Elements\Complex;
 
-use FHIR\Elements\Complex\Schedule\FHIRRepeat;
+use FHIR\Elements\Complex\Schedule\FHIRScheduleRepeat;
 
 /**
  * Class FHIRSchedule
@@ -11,7 +11,7 @@ class FHIRSchedule extends AbstractFHIRComplexType
     /** @var FHIRPeriod */
     protected $event = null;
 
-    /** @var \FHIR\Elements\Complex\Schedule\FHIRRepeat */
+    /** @var \FHIR\Elements\Complex\Schedule\FHIRScheduleRepeat */
     protected $repeat = null;
 
     /**
@@ -31,7 +31,7 @@ class FHIRSchedule extends AbstractFHIRComplexType
     }
 
     /**
-     * @return \FHIR\Elements\Complex\Schedule\FHIRRepeat
+     * @return \FHIR\Elements\Complex\Schedule\FHIRScheduleRepeat
      */
     public function getRepeat()
     {
@@ -39,9 +39,9 @@ class FHIRSchedule extends AbstractFHIRComplexType
     }
 
     /**
-     * @param FHIRRepeat $repeat
+     * @param FHIRScheduleRepeat $repeat
      */
-    public function setRepeat(FHIRRepeat $repeat)
+    public function setRepeat(FHIRScheduleRepeat $repeat)
     {
         $this->repeat = $repeat;
     }

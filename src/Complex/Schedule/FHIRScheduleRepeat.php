@@ -7,10 +7,10 @@ use FHIR\Elements\Primitive\FHIRInteger;
 use FHIR\Elements\Simple\FHIRCode;
 
 /**
- * Class FHIRRepeat
+ * Class FHIRScheduleRepeat
  * @package FHIR\Elements
  */
-class FHIRRepeat extends AbstractFHIRObject
+class FHIRScheduleRepeat extends AbstractFHIRObject
 {
     // @TODO Implement http://www.hl7.org/implement/standards/fhir/event-timing.html enumeration
     // @TODO Implement http://www.hl7.org/implement/standards/fhir/units-of-time.html enumeration
