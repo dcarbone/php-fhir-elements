@@ -39,6 +39,7 @@ class FHIRAddress extends AbstractFHIRComplexType
      */
     public function __construct()
     {
+        parent::__construct();
         $this->line = new ElementCollection();
     }
 

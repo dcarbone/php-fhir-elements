@@ -22,7 +22,8 @@
         "php-fhir/common": "1.0.*"
     },
     "require-dev": {
-        "php-fhir/resources": "0.0.82.*"
+        "php-fhir/resources": "0.0.82.*",
+        "php-fhir/component-tests": "dev-master"
     },
     "autoload": {
         "psr-4": {

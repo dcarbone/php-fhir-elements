@@ -20,6 +20,7 @@ class FHIRCodeableConcept extends AbstractFHIRComplexType
      */
     public function __construct()
     {
+        parent::__construct();
         $this->coding = new ElementCollection();
     }
 

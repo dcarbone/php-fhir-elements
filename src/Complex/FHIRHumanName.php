@@ -38,6 +38,7 @@ class FHIRHumanName extends AbstractFHIRComplexType
      */
     public function __construct()
     {
+        parent::__construct();
         $this->family = new ElementCollection();
         $this->given = new ElementCollection();
         $this->prefix = new ElementCollection();
