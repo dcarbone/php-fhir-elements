@@ -135,7 +135,7 @@ class FHIRHumanName extends AbstractFHIRComplexType
     /**
      * @param \FHIR\Elements\Primitive\FHIRString $suffix
      */
-    public function setSuffix(FHIRString $suffix)
+    public function addSuffix(FHIRString $suffix)
     {
         $this->suffix->append($suffix);
     }
